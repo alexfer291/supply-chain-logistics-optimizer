@@ -54,6 +54,15 @@ O projeto demonstrou que a operação possui um excelente **SLA (97%)**, porém 
 ---
 
 ## 🛠️ Como reproduzir este projeto
-1.  Clone este repositório.
-2.  Execute os scripts na pasta `/sql` no seu ambiente **PostgreSQL**.
-3.  Abra o arquivo `.pbix` no **Power BI** e atualize a fonte de dados para o seu `localhost`.
+
+1. **Clone este repositório:**  
+   `git clone https://github.com`
+
+2. **Prepare o Banco de Dados:**  
+   Importe o arquivo `backup_banco.sql` no seu **PostgreSQL** para recriar a estrutura do banco e as Views.
+
+3. **Conecte o Power BI:**  
+   Abra o arquivo `.pbix` no **Power BI Desktop**, vá em *Transformar Dados > Configurações da Fonte de Dados* e atualize o servidor para o seu `localhost`.
+
+4. **Atualize os Dados:**  
+   Clique em **Obter Dados** (ou Atualizar) para carregar as informações do seu banco local para o dashboard.
