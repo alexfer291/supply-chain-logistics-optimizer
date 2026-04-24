@@ -6,7 +6,7 @@ Este projeto apresenta uma solução completa de **Data Analytics** voltada para
 
 ## 📁 Sobre os Dados
 Os dados utilizados neste projeto são provenientes de um dataset público voltado para problemas de Supply Chain:
-*   **Fonte:** [Supply Chain Logistics Problem Dataset](https://figshare.com)
+*   **Fonte:** [Supply Chain Logistics Problem Dataset](https://brunel.figshare.com/articles/dataset/Supply_Chain_Logistics_Problem_Dataset/7558679?file=20162015)
 *   **Conteúdo:** 7 tabelas contendo registros históricos de pedidos, capacidades de armazenamento, custos fixos e variáveis, e restrições de portos.
 
 ---
